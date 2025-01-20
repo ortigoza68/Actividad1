@@ -10,7 +10,7 @@ const Book = ({ id, title, image, author, code, price }) => {
                 <img src={image} alt={title} className="book__image" />
                 <h3 className="book__title">{title}</h3>
                 <p className="book__author">Por {author}</p>
-
+                <p className="book__price">${price}</p>
 
             </Link>
         </div>

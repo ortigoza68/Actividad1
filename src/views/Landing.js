@@ -10,9 +10,11 @@ const Landing = () => {
   return (
     <div className="landing">
        <Link to={"/"}>
-      <h1>Bienvenidos A MILIBROMX</h1>
-      <p>Encuentra Tu Libro Aqui</p>
+      <h1>MILIBROMX</h1>
+      <img src="/images/msj.jpg" alt="Descripción de la imagen"></img>
+          
       </Link>
+
     </div>
   );
 };

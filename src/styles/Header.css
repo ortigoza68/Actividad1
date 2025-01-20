@@ -41,7 +41,7 @@
 }
 
 .header__menu-link:hover {
-    color: #ffd700; /* Color dorado al pasar el ratón */
+    color: #ff970f; /* Color dorado al pasar el ratón */
 }
 
 /* Menú desplegable */
@@ -76,7 +76,7 @@
 }
 
 .header__submenu-link:hover {
-    background-color: #ffd700; /* Fondo dorado al pasar el ratón */
+    background-color: #ff970f; /* Fondo dorado al pasar el ratón */
 }
 
 
@@ -147,7 +147,7 @@
 }
 
 .header__cart-dropdown button:hover {
-    background-color: #d9534f;
+    background-color:#ff970f;
 }
 
 /* Enlace de ir al carrito */

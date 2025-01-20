@@ -3,19 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
-    background-color: rgb(31, 10, 51);
+    background-color: rgb(84, 32, 133);
     color: #fff;
   
     h1 {
-      font-size: 3rem;
+      font-size: 6rem;
       margin-bottom: 1rem;
+      color: #d8d8d8;
+      font-family: cursive;
     }
   
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-    }
+    img {
+      width: 800px; /* Ajusta el ancho */
+      height: auto; /* Mantiene la proporción */
+      border: 5px solid #000; /* Borde negro */
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+  }
+
+  /* Centrar la imagen */
+  .contenedor {
+      text-align: center; /* Centrar horizontalmente */
+      margin-top: 50px; /* Espaciado superior */
+  }
 
   }

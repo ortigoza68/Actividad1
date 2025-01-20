@@ -21,7 +21,7 @@ const books = [
       author: "Marco Aurelio",
       code: "S0003",
       image: "/images/meditaciones.jpg",
-      price: 12.99,
+      price: 109.00,
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const books = [
       author: "Robert Greene",
       code: "S0004",
       image: "/images/maestria.jpg",
-      price: 12.99,
+      price: 390.99,
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const books = [
       author: "George S. Clason",
       code: "S0005",
       image: "/images/hombrerico.jpeg",
-      price: 12.99,
+      price: 230.99,
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ const books = [
       author: "Matt Haig",
       code: "S0006",
       image: "/images/biblioteca.jpg",
-      price: 12.99,
+      price: 299.00,
     },
   ];
   

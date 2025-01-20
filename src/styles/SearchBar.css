@@ -15,7 +15,7 @@
 }
 
 .search-bar__button {
-    background-color: #6a12a8;
+    background-color: #5f1196;
     color: white;
     border: none;
     padding: 8px 9px;
@@ -29,28 +29,4 @@
 
 .search-bar__button:hover {
     background-color: #391b4e;
-}
-
-.book-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content:flex-start;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.book-list-container {
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-
-
-.book-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content:flex-start;
- 
 }

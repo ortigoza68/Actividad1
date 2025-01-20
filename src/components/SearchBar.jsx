@@ -13,7 +13,7 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
       />
       <button className="search-bar__button">
         <span role="img" aria-label="lupa">
-          <p>buscar</p>
+          <p>Buscar</p>
         </span>
       </button>
     </div>

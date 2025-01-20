@@ -39,11 +39,12 @@
   
   .book-details__back {
     padding: 10px 20px;
-    background-color: #d6aa1a; 
+    background-color: #ff970f; 
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
     display: inline-block;
+    color: aliceblue;
   }
   
   .book-details__back:hover {
@@ -51,7 +52,7 @@
   }
   
   .book-details__add-to-cart {
-    background-color: #0b531c; 
+    background-color: #1ea73e; 
     color: white;
     padding: 10px 20px;
     border: none;
