@@ -13,7 +13,7 @@ const Cart = ({ cartItems, removeFromCart, updateQuantity }) => {
     <div className="cart">
       <h2>Carrito</h2>
       {cartItems.length === 0 ? (
-        <p>No hay productos Agregados</p>
+        <p>No hay productos Agregado</p>
       ) : (
         <div>
           <div className="cart__items">
