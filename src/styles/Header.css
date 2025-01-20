@@ -1,0 +1,170 @@
+/* Estilo del header */
+.header {
+    background-color: #6A0DAD; /* Fondo morado */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0; /* Espaciado más pequeño para un diseño más compacto */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+}
+
+/* Contenedor del header */
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Menú principal */
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Mayor separación entre los enlaces */
+}
+
+/* Menú de navegación */
+.header__menu {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio más amplio entre los enlaces */
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu-link {
+    color: #fff; /* Enlaces blancos */
+    text-decoration: none;
+    font-size: 18px; /* Aumenté el tamaño de la fuente */
+    transition: color 0.3s;
+}
+
+.header__menu-link:hover {
+    color: #ffd700; /* Color dorado al pasar el ratón */
+}
+
+/* Menú desplegable */
+.header__menu-item {
+    position: relative; /* Necesario para posicionar el dropdown */
+}
+
+.header__menu-item:hover .header__submenu {
+    display: block; /* Mostrar el submenú al pasar el ratón */
+}
+
+/* Estilo del submenú */
+.header__submenu {
+    display: none; /* Escondido por defecto */
+    position: absolute;
+    top: 100%; /* Aparece debajo del menú principal */
+    left: 0;
+    background-color: #6A0DAD;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra del submenú */
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.header__submenu-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px; /* Tamaño de fuente más pequeño */
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.header__submenu-link:hover {
+    background-color: #ffd700; /* Fondo dorado al pasar el ratón */
+}
+
+
+/* Carrito */
+.header__cart {
+    position: relative;
+    margin-left: 30px;
+}
+
+.header__cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff6347;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px; /* Aumenté el tamaño del número */
+}
+
+/* Sección de carrito desplegable */
+.header__cart-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; 
+    z-index: 10;
+}
+
+.header__cart-dropdown.visible {
+    display: block; 
+}
+
+/* Enlaces dentro del carrito */
+.header__cart-dropdown h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.header__cart-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.header__cart-dropdown li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header__cart-dropdown button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.header__cart-dropdown button:hover {
+    background-color: #d9534f;
+}
+
+/* Enlace de ir al carrito */
+.header__cart-dropdown a {
+    display: block;
+    text-align: center;
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.header__cart-dropdown a:hover {
+    background-color: #fff;
+    color: #ffd700;
+}

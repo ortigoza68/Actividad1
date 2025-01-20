@@ -1,0 +1,21 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(31, 10, 51);
+    color: #fff;
+  
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+  }

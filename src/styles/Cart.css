@@ -1,0 +1,91 @@
+/* Estilo principal de la sección del carrito */
+.cart {
+  padding: 40px;
+  background-color: #f9f9f9;
+  min-height: 78vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Título del carrito */
+.cart h2 {
+  font-size: 20px;
+ 
+  color: #fff;
+  background-color: #6A0DAD;
+  padding: 10px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+}
+
+/* Contenedor de los artículos del carrito */
+.cart__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Resumen del carrito */
+.cart__summary {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 25px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del resumen */
+.cart__summary h3 {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: #4b0a4b;
+  text-align: center;
+}
+
+/* Contenedor de las acciones del carrito */
+.cart__actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Botones de acción */
+.cart__actions .button {
+  flex: 1;
+  padding: 12px 22px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: #411357;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Botón secundario */
+.cart__actions .button.secondary {
+  background-color: #be7c18;
+}
+
+/* Efectos hover en los botones */
+.cart__actions .button:hover {
+  background-color: #9b31c5;
+}
+
+.cart__actions .button.secondary:hover {
+  background-color: #805506;
+}
+
+/* Texto debajo de los botones */
+.cart p {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+  margin-top: 30px;
+}

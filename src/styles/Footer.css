@@ -1,0 +1,117 @@
+/* Estilo del footer */
+.footer {
+    background: linear-gradient(135deg, #6A0DAD, #411357); 
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil en el footer */
+
+    
+   
+}
+
+
+/* Contenedor del footer */
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+}
+
+/* Sección dentro del footer */
+.footer__section {
+    flex: 1;
+    margin: 0 15px;
+ 
+}
+
+/* Títulos dentro del footer */
+.footer__title {
+    color: #ff970f;
+    text-align: left;
+    margin-bottom: 20px; /* Más espacio debajo del título */
+    font-size: 26px; /* Título más grande */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil para el título */
+  
+}
+
+/* Subtítulos */
+.footer__subtitle {
+    text-align: left;
+    color: #ff970f;
+    margin-bottom: 32px; /* Más espacio debajo del subtítulo */
+    font-size: 20px; /* Subtítulo más grande que el original */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+/* Descripción del footer */
+.footer__description {
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 18px; /* Aumenté el tamaño de la fuente */
+    line-height: 1.8;
+    color: #f2f2f2; /* Gris claro para el texto descriptivo */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+/* Lista dentro del footer */
+.footer__list {
+    text-align: left;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.footer__item {
+    margin: 12px 0; /* Más espacio entre los ítems */
+    font-size: 16px; /* Tamaño de fuente más grande */
+    color: #f2f2f2; /* Color gris claro */
+}
+
+/* Enlaces sociales */
+.footer__social-list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer__social-item {
+    margin: 0;
+}
+
+.footer__social-link {
+    border: 2px solid #ffffff; /* Borde blanco para los enlaces */
+    padding: 10px 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer__social-link:hover {
+    background-color: #000000; /* Dorado al pasar el ratón */
+    color: #6A0DAD; /* Morado al pasar el ratón */
+}
+
+/* Fondo de la parte inferior */
+.footer__bottom {
+    text-align: center;
+    margin-top: 4px; /* Aumenté el espacio entre el contenido y el pie de página */
+    font-size: 14px; /* Un tamaño más pequeño */
+    color: #f2f2f2; /* Gris claro para texto */
+    border-top: 1px solid #000000; /* Borde dorado en la parte superior */
+    padding-top: 5px;
+    font-style: italic; /* Estilo en cursiva */
+}
+
+/* Copyright */
+.footer__copyright {
+    margin: 0;
+    font-size: 10px; /* Más pequeño que el resto del texto */
+    font-style: italic;
+}
